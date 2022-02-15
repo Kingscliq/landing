@@ -5,11 +5,11 @@ module.exports = {
     './components/**/*.{html,js}',
   ],
   theme: {
+    container: {
+      center: true,
+      padding: '2rem',
+    },
     extend: {
-      container: {
-        center: true,
-        padding: '4rem',
-      },
       screens: {
         sm: '480px',
         md: '768px',

@@ -16,7 +16,6 @@ const navRoutes = [
 import Link from 'next/link';
 const NavBar = () => {
   // const [toggleMobile, setToggleMobile] = useState(false);
-  const router = useRouter();
   const [isOpen, setIsOpen] = useState(false);
 
   const genericHamburgerLine = `h-0.5 w-full my-1 rounded-full bg-primary transition ease transform duration-300`;
@@ -112,76 +111,3 @@ const NavBar = () => {
 };
 
 export default NavBar;
-
-//     <section className="hero">
-//       <section className="lg:px-20 2xl:px-40 md:px-12 px-6 py-4 flex items-center justify-between border-b border-solid border-secondary w-full bg-backdrop sm:backdrop-blur-xl md:bg-transparent">
-//         <Link href="/">
-//           <a>
-//             <Image src={crowdforceLogo} />
-//           </a>
-//         </Link>
-//         <button
-//           aria-label="hamburger menu"
-//           className="flex flex-col h-7 w-7 justify-center items-center group md:hidden"
-//           onClick={() => setIsOpen(!isOpen)}
-//         >
-//           <div
-//             className={`${genericHamburgerLine} ${
-//               isOpen
-//                 ? 'rotate-45 translate-y-3 opacity-50 group-hover:opacity-100'
-//                 : 'opacity-50 group-hover:opacity-100'
-//             }`}
-//           />
-//           <div
-//             className={`${genericHamburgerLine} ${
-//               isOpen ? 'opacity-0' : 'opacity-50 group-hover:opacity-100'
-//             }`}
-//           />
-//           <div
-//             className={`${genericHamburgerLine} ${
-//               isOpen
-//                 ? '-rotate-45 -translate-y-3 opacity-50 group-hover:opacity-100'
-//                 : 'opacity-50 group-hover:opacity-100'
-//             }`}
-//           />
-//         </button>
-//         {/* <section className="hidden md:flex">
-//           <a
-//             href="tel:+2349065383758"
-//             className="border-b border-solid font-regular leading-none text-white md:text-sm lg:text-lg border-white transition duration-500 ease-in-out hover:text-priColor z-10 hidden md:block mr-5"
-//           >
-//             (+234) 906 538 3758
-//           </a>
-//           <a
-//             href="mailto:info@anettransport.com"
-//             className="border-b border-solid font-regular leading-none text-white md:text-sm lg:text-lg border-white transition duration-500 ease-in-out hover:text-priColor z-10 hidden md:block"
-//           >
-//             info@anettransport.com
-//           </a>
-//         </section> */}
-//       </section>
-//       <nav
-//         className={`md:block my-2 md:my-3 absolute md:relative z-20 w-full h-4/5 py-16 md:h-14 md:py-0 bg-transparent md:bg-transparent md:backdrop-blur-xl transition-all duration-1000 ease-linear ${
-//           isOpen ? ' active' : ' notActive'
-//         }`}
-//       >
-//         <ul className="flex px-6 md:px-0 md:items-center justify-between md:flex-row md:py-4 md:w-4/5 lg:w-9/12 mx-auto flex-col h-4/5 md:h-full items-start transition-all duration-700 ease-linear delay-100">
-//           {navRoutes.map(route => (
-//             <li key={route.id} onClick={() => setIsOpen(!isOpen)}>
-//               <Link href={route.href}>
-//                 <a
-//                   className={
-//                     (router.pathname === route.href ? 'active ' : '') +
-//                     'text-xl md:text-base lg:text-lg text-primary transition duration-500 ease-in-out z-10 flex items-center justify-center md:font-normal'
-//                   }
-//                 >
-//                   {route.name}
-//                 </a>
-//               </Link>
-//             </li>
-//           ))}
-//         </ul>
-//       </nav>
-//     </section>
-//   );
-// };
