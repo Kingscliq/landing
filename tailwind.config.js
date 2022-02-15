@@ -43,7 +43,7 @@ module.exports = {
       'extra-bold': 800,
     },
     fontFamily: {
-      sans: ['Open Sans', 'sans-serif'],
+      sans: ['Poppins', 'sans-serif'],
     },
   },
 
