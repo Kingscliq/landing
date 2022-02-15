@@ -1,6 +1,5 @@
 import Image from 'next/image';
 import React from 'react';
-import { insight } from '../../../../assets/icons';
 import { badge, testim } from '../../../../assets/images';
 import { SmallText, Subheading } from '../../text';
 
@@ -23,9 +22,7 @@ const TestimonialCard = () => {
           <Image src={testim} />
         </div>
         <div className="col-span-2 row-span-1">
-          <Subheading className="text-md text-primary">
-            Francis Ohanyido
-          </Subheading>
+          <h4 className="text-md text-primary font-bold">Francis Ohanyido</h4>
         </div>
         <div className="col-span-2 row-span-1">
           <SmallText>Senior Fellow</SmallText>

@@ -10,7 +10,6 @@ const TextArea = ({ name, placeholder, label }) => {
         placeholder={placeholder}
         className="border-gray border rounded bg-transparent w-full h-24 my-1 outline-none px-3 py-4"
       ></textarea>
-      ;
     </div>
   );
 };

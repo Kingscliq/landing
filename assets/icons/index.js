@@ -19,7 +19,12 @@ import bei from './bei.svg';
 import phone from './phone.svg';
 import minOfHealth from './min-of-health.svg';
 import traderMoni from './trader-moni.svg';
+import healthStrategy from './health-strategy.svg';
+import hamburger from './hamburger.svg';
+import arrowDown from './arrow-down.svg';
+
 export {
+  hamburger,
   crowdforceLogo,
   loader,
   data,
@@ -41,4 +46,6 @@ export {
   bei,
   traderMoni,
   minOfHealth,
+  healthStrategy,
+  arrowDown,
 };

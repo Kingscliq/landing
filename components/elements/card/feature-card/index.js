@@ -7,7 +7,7 @@ const FeatureCard = ({ icon, description, title }) => {
   return (
     <section>
       <div>
-        <Image src={analytics || icon} />
+        <Image src={icon || analytics} />
       </div>
       <div className="mt-3">
         <Subheading className="text-md text-primary">

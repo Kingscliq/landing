@@ -7,6 +7,7 @@
 .btn {
   @apply font-sans hover:opacity-90 transition duration-500;
   padding: 8px 21px;
+  min-width: 176px;
 }
 
 .btn-primary {
@@ -23,7 +24,18 @@
 .bg-heading {
   background-image: url('../assets/icons/line.svg');
 }
+.bg-section {
+  background-image: url('../assets/images/bg-net.svg');
+}
+.bg-world {
+  background-image: url('../assets/images/world.svg');
+}
+.bg-contact {
+  background-image: url('../assets/images/contact-area.png');
+}
 
-body {
+body,
+html {
   background-color: rgba(233, 245, 249, 1);
+  overflow-x: hidden;
 }

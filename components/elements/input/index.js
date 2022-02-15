@@ -26,7 +26,12 @@ const Input = ({
 }) => {
   return (
     <div>
-      <label className="text-primary font-bold">{label || 'Form label'}</label>
+      <label
+        className="text-primary font-bold"
+        style={error ? { color: '#e11900' } : null}
+      >
+        {label || 'Form label'}
+      </label>
       <div
         className={[
           className,
@@ -35,9 +40,9 @@ const Input = ({
         style={
           error
             ? {
-                backgroundColor: 'var(--error-light)',
-                border: '2px solid var(--border-negative)',
-                color: 'var(--neutral-dark)',
+                backgroundColor: '#ffefed',
+                border: '1px solid #e11900',
+                color: 'rgba(15, 55, 90, 1)',
               }
             : success
             ? {
