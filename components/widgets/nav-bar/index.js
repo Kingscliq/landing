@@ -29,10 +29,8 @@ const NavBar = () => {
         </span>
       </div>
       <div
-        className={`lg:flex justify-start left-0 right-0 items-start px-3 py-4 md:py-0 md:px-0 bg-primary text-white md:text-primary md:bg-transparent w-full z-20 md:w-auto lg:justify-around lg:items-center flex-wrap transition-all absolute md:static ${
-          isOpen
-            ? 'translate-x-[-50rem] transition ease transform duration-300'
-            : null
+        className={`lg:flex justify-start left-0 right-0 translate-x-[-50rem]  items-start px-3 py-4 md:py-0 md:px-0 bg-primary text-white md:text-primary md:bg-transparent w-full z-20 md:w-auto lg:justify-around lg:items-center flex-wrap absolute md:static md:translate-x-0 transition ease transform duration-300 ${
+          isOpen ? 'translate-x-0' : 'translate-x-[-50rem]'
         }`}
       >
         {/* <div
@@ -41,7 +39,9 @@ const NavBar = () => {
         }`}
       > */}
         <div>
-          <ul className="list-none block justify-start lg:justify-between lg:flex flex-wrap items-start lg:items-center">
+          <ul
+            className={`list-none block justify-start lg:justify-between lg:flex flex-wrap items-start lg:items-center`}
+          >
             <NavLink
               href={'/'}
               linkText="Products"
@@ -85,25 +85,25 @@ const NavBar = () => {
       <button
         aria-label="hamburger menu"
         className="flex flex-col h-7 w-7 justify-center items-center group sm:hidden absolute top-8 right-8"
-        onClick={() => setIsOpen(!isOpen)}
+        onClick={() => setIsOpen(prev => !prev)}
       >
         <div
           className={`${genericHamburgerLine} ${
             isOpen
-              ? 'opacity-50 group-hover:opacity-100'
-              : 'rotate-45 translate-y-3 opacity-50 group-hover:opacity-100'
+              ? 'rotate-45 translate-y-3 opacity-50 group-hover:opacity-100'
+              : 'opacity-50 group-hover:opacity-100'
           }`}
         />
         <div
           className={`${genericHamburgerLine} ${
-            isOpen ? 'opacity-50 group-hover:opacity-100' : 'opacity-0'
+            isOpen ? 'opacity-0' : 'opacity-50 group-hover:opacity-100'
           }`}
         />
         <div
           className={`${genericHamburgerLine} ${
             isOpen
-              ? 'opacity-50 group-hover:opacity-100'
-              : '-rotate-45 -translate-y-3 opacity-50 group-hover:opacity-100'
+              ? '-rotate-45 -translate-y-3 opacity-50 group-hover:opacity-100'
+              : 'opacity-50 group-hover:opacity-100'
           }`}
         />
       </button>

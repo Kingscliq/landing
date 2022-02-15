@@ -36,7 +36,7 @@ const NavLink = ({
               >
                 <path
                   d="M5 5L0.5 0.5H9.5L5 5Z"
-                  fill={`${isOpen ? '#0F375A' : '#ffffff'}`}
+                  fill={`${isOpen ? '#ffffff' : '#0F375A'}`}
                 />
               </svg>
             </div>
