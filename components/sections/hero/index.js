@@ -1,5 +1,4 @@
 import React from 'react';
-import NavBar from '../../../components/widgets/nav-bar';
 import Button from '../../../components/elements/button';
 import {
   Heading,
@@ -7,13 +6,7 @@ import {
   SmallText,
   Subheading,
 } from '../../../components/elements/text';
-import FeatureCard from '../../elements/card/feature-card';
-import TestimonialCard from '../../elements/card/testimonial-card';
-import Input from '../../elements/input';
-import TextArea from '../../elements/textarea';
-import Counter from '../../elements/counter';
-import Image from 'next/image';
-import { placeholderVideo } from '../../../assets/images';
+
 import ReactPlayer from 'react-player';
 const Hero = () => {
   return (
@@ -43,7 +36,6 @@ const Hero = () => {
               width="100%"
               height="100%"
             />
-            {/* <Image src={placeholderVideo} /> */}
           </div>
         </div>
       </div>
