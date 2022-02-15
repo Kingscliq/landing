@@ -1,7 +1,7 @@
 import Image from 'next/image';
 import React from 'react';
 import { badge, testim } from '../../../../assets/images';
-import { SmallText, Subheading } from '../../text';
+import { SmallText } from '../../text';
 
 const TestimonialCard = () => {
   return (

@@ -17,6 +17,10 @@
 .btn-secondary {
   background-color: transparent;
 }
+/* .html5-video-player {
+  width: 340px !important;
+  height: auto;
+} */
 
 .btn-secondary:hover {
   @apply bg-secondary;

@@ -14,6 +14,7 @@ import TextArea from '../../elements/textarea';
 import Counter from '../../elements/counter';
 import Image from 'next/image';
 import { placeholderVideo } from '../../../assets/images';
+import ReactPlayer from 'react-player';
 const Hero = () => {
   return (
     <section className="bg-skyblue w-screen h-auto py-4 md:py-36">
@@ -35,8 +36,14 @@ const Hero = () => {
               <Button className="mt-5 mb-12 md:mb-0" label="Get In Touch" />
             </div>
           </div>
-          <div>
-            <Image src={placeholderVideo} />
+          <div className="relative">
+            <ReactPlayer
+              url="https://youtu.be/TgYAY5aYh7I"
+              className="left-0 top-0 absolute"
+              width="100%"
+              height="100%"
+            />
+            {/* <Image src={placeholderVideo} /> */}
           </div>
         </div>
       </div>
