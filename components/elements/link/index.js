@@ -16,7 +16,7 @@ const NavLink = ({
       <div>
         <li
           className={[
-            'flex items-center content-between text-primary w-100 py-4 lg:py-0 lg:w-auto mt-10 lg:mt-0',
+            'flex items-center content-between text-primary w-100 py-4 lg:py-0 lg:w-auto mt-10 lg:mt-0 cursor-pointer',
             ,
             className,
           ].join(' ')}

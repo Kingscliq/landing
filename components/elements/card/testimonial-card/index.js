@@ -22,7 +22,9 @@ const TestimonialCard = () => {
           <Image src={testim} />
         </div>
         <div className="col-span-2 row-span-1">
-          <h4 className="text-md text-primary font-bold">Francis Ohanyido</h4>
+          <h4 className="text-base sm:text-md text-primary font-bold">
+            Francis Ohanyido
+          </h4>
         </div>
         <div className="col-span-2 row-span-1">
           <SmallText>Senior Fellow</SmallText>

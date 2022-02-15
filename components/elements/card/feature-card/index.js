@@ -10,9 +10,9 @@ const FeatureCard = ({ icon, description, title }) => {
         <Image src={icon || analytics} />
       </div>
       <div className="mt-3">
-        <Subheading className="text-md text-primary">
+        <h2 className="text-md font-bold text-primary">
           {title || 'This is a Title'}
-        </Subheading>
+        </h2>
       </div>
       <div className="mt-3">
         <SmallText>
