@@ -22,6 +22,25 @@
   height: auto;
 } */
 
+.transition-all {
+  transition: transform 0.3s ease-in-out;
+}
+
+.transition-all a {
+  transition: color 0.3s linear;
+}
+
+.notActive {
+  transform: translate(-100%, 0);
+}
+
+.active {
+  transform: translate(0, 0);
+}
+
+.rotateDiv {
+  transform: rotate(4.99deg);
+}
 .btn-secondary:hover {
   @apply bg-secondary;
 }
