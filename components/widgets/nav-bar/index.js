@@ -74,7 +74,7 @@ const NavBar = () => {
             <Button
               label="Login"
               variant="secondary"
-              className="text-white md:text-primary hover:text-white mr-2 lg:mt-0 w-full lg:w-auto border-white md:border-secondary"
+              className="text-white md:text-primary hover:text-white mr-2 lg:mt-0 w-full lg:w-auto md:border-0 border border-white md:border-secondary"
             />
           </div>
           <div>

@@ -12,7 +12,7 @@ const Hero = () => {
   return (
     <section className="bg-skyblue w-screen h-auto py-4 md:py-36">
       <div className="container">
-        <div className="grid grid-cols-1 md:grid-cols-2">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-14">
           <div>
             <SmallHeading className="text-center md:text-left mb-3">
               Mobile Forms
