@@ -4,7 +4,7 @@ import Image from 'next/image';
 import { crowdforceLogo, hamburger } from '../../../assets/icons';
 import Button from '../../elements/button';
 
-import Link from '../../elements/link';
+import NavLink from '../../elements/link';
 
 const NavBar = () => {
   const [toggleMobile, setToggleMobile] = useState(false);
@@ -36,16 +36,28 @@ const NavBar = () => {
             {/* <li className="text-primary w-100 py-4 lg:py-0 lg:w-auto mt-10 lg:mt-0">
               Products
             </li> */}
-            <Link />
-            <li className="ml-0 lg:ml-7  text-primary lg:mt-0 w-100 py-4 lg:py-0">
+            <NavLink href={'/'} linkText="Products" isDropDownMenu={true} />
+            <NavLink
+              href={'/'}
+              linkText="Industry"
+              isDropDownMenu={true}
+              className="ml-0 lg:ml-7  text-primary lg:mt-0 w-100 py-4 lg:py-0"
+            />
+            <NavLink
+              href={'/'}
+              linkText="About"
+              className="ml-0 lg:ml-7 text-primary lg:mt-0 w-100 py-4 lg:py-0"
+            />
+            <NavLink
+              href={'/'}
+              linkText="Become a Field Agent"
+              className="ml-0 lg:ml-7 text-primary lg:mt-0 w-100 py-4 lg:py-0"
+            />
+            {/* <li className="">
               Industry
-            </li>
-            <li className="ml-0 lg:ml-7 text-primary lg:mt-0 w-100 py-4 lg:py-0">
-              About
-            </li>
-            <li className="ml-0 lg:ml-7 text-primary lg:mt-0 w-100 py-4 lg:py-0">
-              Become a Field Agent
-            </li>
+            </li> */}
+            {/* <li className="">About</li>
+            <li className="">Become a Field Agent</li> */}
           </ul>
         </div>
         <div className="ml-0 lg:ml-7 block lg:flex lg:justify-between lg:items-center items mt-3 lg:mt-0">
