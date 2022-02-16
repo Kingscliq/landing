@@ -30,7 +30,7 @@ const Hero = () => {
             </div>
           </div>
 
-          <div className="relative">
+          <div className="relative pt-[56.25%] md:pt-0">
             <ReactPlayer
               url="https://youtu.be/TgYAY5aYh7I"
               className="left-0 top-0 absolute"
