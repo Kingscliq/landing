@@ -71,7 +71,7 @@ const NavBar = () => {
       </div>
       <button
         aria-label="hamburger menu"
-        className="flex flex-col h-7 w-7 justify-center items-center group sm:hidden absolute top-8 right-8"
+        className="flex flex-col h-7 w-7 justify-center items-center group md:hidden absolute top-8 right-8"
         onClick={() => setIsOpen(prev => !prev)}
       >
         <div

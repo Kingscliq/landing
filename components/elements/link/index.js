@@ -25,8 +25,6 @@ const NavLink = ({
           <SmallHeading className="capitalize">{linkText}</SmallHeading>
           {isDropDownMenu && (
             <div className="ml-2">
-              {/* <Image src={arrowDown} /> */}
-
               <svg
                 width="10"
                 height="5"
