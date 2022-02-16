@@ -6,22 +6,15 @@ import Button from '../../elements/button';
 
 import NavLink from '../../elements/link';
 import { useRouter } from 'next/router';
-const navRoutes = [
-  { id: 1, name: 'Products', href: '/' },
-  { id: 2, name: 'Industry', href: '/' },
-  { id: 3, name: 'About', href: '/' },
-  { id: 4, name: 'Become a Field Agent', href: '/' },
-];
 
 import Link from 'next/link';
 const NavBar = () => {
-  // const [toggleMobile, setToggleMobile] = useState(false);
   const [isOpen, setIsOpen] = useState(false);
 
   const genericHamburgerLine = `h-0.5 w-full my-1 rounded-full bg-primary transition ease transform duration-300`;
+
   return (
     <nav className="block justify-start lg:flex lg:items-center items-center lg:justify-between flex-wrap p-8">
-      {/* // <nav> */}
       <div className="flex items-center flex-shrink-0 mr-6">
         <span>
           <Image src={crowdforceLogo} />
@@ -32,11 +25,6 @@ const NavBar = () => {
           isOpen ? 'translate-x-0' : 'translate-x-[-50rem]'
         }`}
       >
-        {/* <div
-        className={`lg:flex justify-start items-start lg:justify-around lg:items-center flex-wrap z-20 w-full h-4/5 py-16 md:h-14 md:py-0 bg-transparent md:bg-transparent md:backdrop-blur-xl transition-all duration-1000 ease-linear ${
-          isOpen ? ' active' : ' notActive'
-        }`}
-      > */}
         <div>
           <ul
             className={`list-none block justify-start lg:justify-between lg:flex flex-wrap items-start lg:items-center`}

@@ -10,7 +10,6 @@ module.exports = {
       center: true,
       padding: '2rem',
     },
-
     screens: {
       sm: '480px',
       md: '768px',
@@ -44,6 +43,12 @@ module.exports = {
     },
     fontFamily: {
       sans: ['Poppins', 'sans-serif'],
+    },
+    backgroundImage: {
+      'bg-heading': "url('../assets/icons/line.svg')",
+      'bg-contact': "url('../assets/images/contact-area.png');",
+      'bg-world': "url('../assets/images/world.svg')",
+      'bg-section': "url('../assets/images/bg-net.svg')",
     },
   },
 
