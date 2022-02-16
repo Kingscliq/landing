@@ -40,12 +40,12 @@ module.exports = {
       fontFamily: {
         sans: ['Poppins', 'sans-serif'],
       },
-      backgroundImage: {
+      backgroundImage: theme => ({
         heading: "url('../assets/icons/line.svg')",
         contact: "url('../assets/images/contact-area.png');",
         world: "url('../assets/images/world.svg')",
         section: "url('../assets/images/bg-net.svg')",
-      },
+      }),
     },
     container: {
       center: true,
