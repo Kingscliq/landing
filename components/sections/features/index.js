@@ -12,7 +12,7 @@ import { Heading } from '../../elements/text';
 
 const Features = () => {
   return (
-    <section className="mb-11">
+    <section className="mb-11 px-0 md:px-16">
       <div className="container ">
         <Heading className="text-center bg-heading text-primary bg-no-repeat bg-bottom mt-24">
           Features

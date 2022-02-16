@@ -10,7 +10,7 @@ import {
 import ReactPlayer from 'react-player';
 const Hero = () => {
   return (
-    <section className="bg-skyblue w-screen h-auto py-4 md:py-36">
+    <section className="bg-skyblue h-auto py-4 md:py-36 px-0 md:px-16">
       <div className="container">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-14">
           <div>
@@ -29,6 +29,7 @@ const Hero = () => {
               <Button className="mt-5 mb-12 md:mb-0" label="Get In Touch" />
             </div>
           </div>
+
           <div className="relative">
             <ReactPlayer
               url="https://youtu.be/TgYAY5aYh7I"

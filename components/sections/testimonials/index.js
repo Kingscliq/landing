@@ -4,7 +4,7 @@ import { Subheading } from '../../elements/text';
 
 const Testimonials = () => {
   return (
-    <section className="bg-white">
+    <section className="bg-white px-0 md:px-16">
       <div className="container py-28">
         <Subheading className="bg-heading bg-no-repeat bg-left-bottom text-primary">
           Don’t take our word for it.

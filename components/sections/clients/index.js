@@ -17,7 +17,7 @@ import {
 
 const ClientsSection = () => {
   return (
-    <section className="bg-white ">
+    <section className="bg-white px-0 md:px-16 ">
       <div className="container h-auto md:h-96 flex flex-col items-start justify-center">
         <Subheading className="text-primary md:w-[510px] mb-3.5 mt-24">
           Advancing information for our amazing clients

@@ -1,7 +1,6 @@
 import Head from 'next/head';
 import ClientsSection from '../components/sections/clients';
 import Contact from '../components/sections/contact';
-import CopyRights from '../components/sections/copyrights';
 import CounterSection from '../components/sections/counter';
 import CtaOne from '../components/sections/cta-one';
 import Features from '../components/sections/features';

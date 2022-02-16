@@ -10,7 +10,7 @@ import TextArea from '../../elements/textarea';
 
 const Contact = () => {
   return (
-    <section className="bg-white">
+    <section className="bg-white px-0 md:px-16">
       <div className="grid grid-cols-1 h-auto md:grid-cols-3 md:h-[40.125rem] container md:gap-10 items-center ">
         <div className="col-span-1 bg-contact bg-cover h-[40.125rem] mb-16 md:mb-auto px-10 flex items-start flex-col justify-between">
           <div>
