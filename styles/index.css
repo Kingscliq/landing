@@ -44,7 +44,7 @@
 .btn-secondary:hover {
   @apply bg-secondary;
 }
-.bg-heading {
+/* .bg-heading {
   background-image: url('../assets/icons/line.svg');
 }
 .bg-section {
@@ -55,7 +55,7 @@
 }
 .bg-contact {
   background-image: url('../assets/images/contact-area.png');
-}
+} */
 
 body,
 html {

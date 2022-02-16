@@ -45,10 +45,10 @@ module.exports = {
       sans: ['Poppins', 'sans-serif'],
     },
     backgroundImage: {
-      'bg-heading': "url('../assets/icons/line.svg')",
-      'bg-contact': "url('../assets/images/contact-area.png');",
-      'bg-world': "url('../assets/images/world.svg')",
-      'bg-section': "url('../assets/images/bg-net.svg')",
+      heading: "url('../assets/icons/line.svg')",
+      contact: "url('../assets/images/contact-area.png');",
+      world: "url('../assets/images/world.svg')",
+      section: "url('../assets/images/bg-net.svg')",
     },
   },
 
