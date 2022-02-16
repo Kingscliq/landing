@@ -13,7 +13,7 @@ const NavLink = ({
   isOpen,
 }) => {
   return (
-    <Link href={href || '/'}>
+    <Link href={href || '/'} passHref>
       <div>
         <li
           className={[
