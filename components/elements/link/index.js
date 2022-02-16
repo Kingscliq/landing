@@ -4,7 +4,7 @@ import { arrowDown } from '../../../assets/icons';
 import { SmallHeading } from '../text';
 import Link from 'next/link';
 const NavLink = ({
-  href,
+  link,
   isDropDownMenu,
   dropDownContent,
   children,
@@ -13,7 +13,7 @@ const NavLink = ({
   isOpen,
 }) => {
   return (
-    <Link href={href || '/'} passHref>
+    <Link href={link || '/'} passHref>
       <div>
         <li
           className={[

@@ -30,26 +30,26 @@ const NavBar = () => {
             className={`list-none block justify-start lg:justify-between lg:flex flex-wrap items-start lg:items-center`}
           >
             <NavLink
-              href={'/'}
+              link="/"
               linkText="Products"
               isDropDownMenu={true}
               isOpen={isOpen}
             />
             <NavLink
-              href={'/'}
+              link="/"
               linkText="Industry"
               isDropDownMenu={true}
               className="ml-0 lg:ml-7 text-white md:text-primary lg:mt-0 w-100 py-4 lg:py-0"
               isOpen={isOpen}
             />
             <NavLink
-              href={'/'}
+              link="/"
               linkText="About"
               className="ml-0 lg:ml-7 text-white md:text-primary lg:mt-0 w-100 py-4 lg:py-0"
               isOpen={isOpen}
             />
             <NavLink
-              href={'/'}
+              link="/"
               linkText="Become a Field Agent"
               className="ml-0 lg:ml-7 text-white md:text-primary lg:mt-0 w-100 py-4 lg:py-0"
               isOpen={isOpen}
