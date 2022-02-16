@@ -4,7 +4,7 @@ import { arrowDown } from '../../../assets/icons';
 import { SmallHeading } from '../text';
 import Link from 'next/link';
 const NavLink = ({
-  link,
+  href,
   isDropDownMenu,
   dropDownContent,
   children,
@@ -13,9 +13,9 @@ const NavLink = ({
   isOpen,
 }) => {
   return (
-    <Link href={link || '/'} passHref>
-      <div>
-        <li
+    <Link href={href}>
+      <a>
+        <div
           className={[
             'flex items-center content-between w-100 py-2 md:py-4 lg:py-0 lg:w-auto mt-10 lg:mt-0 cursor-pointer',
             ,
@@ -41,9 +41,9 @@ const NavLink = ({
               </svg>
             </div>
           )}
-        </li>
+        </div>
         {dropDownContent && children}
-      </div>
+      </a>
     </Link>
   );
 };

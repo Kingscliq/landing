@@ -10,7 +10,6 @@ import { SmallText, Subheading } from '../../elements/text';
 import TextArea from '../../elements/textarea';
 
 const Contact = () => {
-  console.log(contactArea);
   return (
     <section className="bg-white px-0 md:px-16">
       <div className="grid grid-cols-1 h-auto md:grid-cols-3 md:h-[40.125rem] container md:gap-10 items-center ">

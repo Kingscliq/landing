@@ -26,35 +26,35 @@ const NavBar = () => {
         }`}
       >
         <div>
-          <ul
+          <div
             className={`list-none block justify-start lg:justify-between lg:flex flex-wrap items-start lg:items-center`}
           >
             <NavLink
-              link="/"
+              href="/think"
               linkText="Products"
               isDropDownMenu={true}
               isOpen={isOpen}
             />
             <NavLink
-              link="/"
+              href="/industry"
               linkText="Industry"
               isDropDownMenu={true}
               className="ml-0 lg:ml-7 text-white md:text-primary lg:mt-0 w-100 py-4 lg:py-0"
               isOpen={isOpen}
             />
             <NavLink
-              link="/"
+              href={'/about'}
               linkText="About"
               className="ml-0 lg:ml-7 text-white md:text-primary lg:mt-0 w-100 py-4 lg:py-0"
               isOpen={isOpen}
             />
             <NavLink
-              link="/"
+              href="/agents"
               linkText="Become a Field Agent"
               className="ml-0 lg:ml-7 text-white md:text-primary lg:mt-0 w-100 py-4 lg:py-0"
               isOpen={isOpen}
             />
-          </ul>
+          </div>
         </div>
         <div className="ml-0 lg:ml-7 block lg:flex lg:justify-between lg:items-center items mt-3 lg:mt-0">
           <div>
