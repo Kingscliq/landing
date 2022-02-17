@@ -6,7 +6,7 @@ import 'aos/dist/aos.css';
 
 function MyApp({ Component, pageProps }) {
   useEffect(() => {
-    AOS.init({ delay: 500, duration: 1000, easing: 'ease' });
+    AOS.init({ delay: 500, duration: 1000, easing: 'ease', once: true });
   }, []);
 
   return (

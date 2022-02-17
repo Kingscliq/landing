@@ -41,9 +41,9 @@
 .rotateDiv {
   transform: rotate(4.99deg);
 }
-.btn-secondary:hover {
+/* .btn-secondary:hover {
   @apply bg-secondary;
-}
+} */
 /* .bg-heading {
   background-image: url('../assets/icons/line.svg');
 }

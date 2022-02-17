@@ -15,24 +15,29 @@ const Hero = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-14">
           <div>
             <div data-aos="fade-down">
-              <SmallHeading className="text-center md:text-left mb-3">
+              <SmallHeading className="text-center md:text-left">
                 Mobile Forms
               </SmallHeading>
             </div>
 
-            <Heading className="text-primary text-center md:text-left leading-10 md:leading-[65px] bg-heading bg-no-repeat bg-left-bottom">
-              Get accessible real-time data in Africa
+            <Heading className="text-primary text-center md:text-left leading-10 md:leading-[65px] bg-no-repeat bg-left-bottom mt-1 mb-16">
+              Get accessible
+              <br />
+              <span className="bg-heading bg-no-repeat bg-bottom">
+                real-time data
+              </span>{' '}
+              in Africa
             </Heading>
-            <SmallText className="mt-5 text-center md:text-left leading-7">
+            <SmallText className="mt-5 text-center md:text-left leading-7 mb-12">
               MobileForms is a Data collection and analytics platform that
               empowers decision-makers with real-time actionable intelligence
               gotten directly from individuals living in African communities
             </SmallText>
             <div
-              className="flex items-center md:items-start md:justify-start justify-center mb-4 md:mb-0"
+              className="flex items-center md:items-start md:justify-start justify-center  md:mb-0"
               data-aos="fade-up"
             >
-              <Button className="mt-5 mb-12 md:mb-0" label="Get In Touch" />
+              <Button className=" mb-12 md:mb-0" label="Get In Touch" />
             </div>
           </div>
 
