@@ -19,16 +19,16 @@ import {
 
 const ClientsSection = () => {
   return (
-    <section className="bg-white px-0 md:px-16 ">
-      <div className="container h-auto flex flex-col items-start justify-center">
-        <Subheading className="text-primary mb-3.5 mt-24 text-center">
+    <section className="bg-white px-0 md:px-16 py-14 ">
+      <div className="container h-auto flex flex-col items-center justify-center">
+        <Subheading className="text-primary mb-3.5 mt-24 text-center w-auto">
           Clients
         </Subheading>
         <SmallText className="text-center">
           Read more about our CrowdForce Series, keeping you up to date with our
           Projects
         </SmallText>
-        <div className="grid gap-9 grid-cols-2 md:flex md:items-center md:justify-between w-full mt-11">
+        <div className="grid gap-9 grid-cols-2 md:flex md:items-center md:justify-between w-full mt-11 mb-6">
           <Image src={minOfHealth} />
           <Image src={traderMoni} />
           <Image src={nbs} />
@@ -39,7 +39,7 @@ const ClientsSection = () => {
         <div className="flex items-center justify-center">
           <Link href="https://medium.com/crowdforce-series">
             <a target="_blank">
-              <Button label="Read Crowdforce Series" className="mt-3" />
+              <Button label="Read Crowdforce Series" />
             </a>
           </Link>
         </div>

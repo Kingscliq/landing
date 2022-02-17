@@ -5,11 +5,8 @@ import { SmallText } from '../../elements/text';
 
 const CopyRights = () => {
   return (
-    <div className="flex items-start md:items-center justify-center flex-col mt-24 mb-0 container">
-      <div>
-        <Image src={crowdforceLogo} />
-      </div>
-      <div>
+    <div className="flex items-start md:items-center justify-center flex-col mt-24 mb-0 container py-12">
+      <div className="px-16">
         <SmallText className="text-sm text-primary">
           © 2021 CrowdForce. All Rights Reserved
         </SmallText>
