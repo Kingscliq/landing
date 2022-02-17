@@ -8,7 +8,7 @@ const TextArea = ({ name, placeholder, label }) => {
       </label>
       <textarea
         placeholder={placeholder}
-        className="border-gray border rounded bg-transparent w-full h-24 my-1 outline-none px-3 py-4"
+        className="border-gray border rounded bg-transparent w-full h-24 my-1 outline-none px-3 py-4 resize-none"
       ></textarea>
     </div>
   );

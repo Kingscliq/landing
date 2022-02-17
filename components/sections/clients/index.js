@@ -20,11 +20,11 @@ import {
 const ClientsSection = () => {
   return (
     <section className="bg-white px-0 md:px-16 ">
-      <div className="container h-auto md:h-96 flex flex-col items-start justify-center">
-        <Subheading className="text-primary md:w-[510px] mb-3.5 mt-24">
+      <div className="container h-auto flex flex-col items-start justify-center">
+        <Subheading className="text-primary mb-3.5 mt-24 text-center">
           Clients
         </Subheading>
-        <SmallText>
+        <SmallText className="text-center">
           Read more about our CrowdForce Series, keeping you up to date with our
           Projects
         </SmallText>
@@ -36,11 +36,13 @@ const ClientsSection = () => {
           <Image src={dufil} />
           <Image src={healthStrategy} />
         </div>
-        <Link href="https://medium.com/crowdforce-series">
-          <a target="_blank">
-            <Button label="Read Crowdforce Series" className="mt-3" />
-          </a>
-        </Link>
+        <div className="flex items-center justify-center">
+          <Link href="https://medium.com/crowdforce-series">
+            <a target="_blank">
+              <Button label="Read Crowdforce Series" className="mt-3" />
+            </a>
+          </Link>
+        </div>
       </div>
     </section>
   );

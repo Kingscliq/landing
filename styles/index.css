@@ -21,7 +21,9 @@
   width: 340px !important;
   height: auto;
 } */
-
+.container {
+  @apply mx-auto px-8;
+}
 .transition-all {
   transition: transform 0.3s ease-in-out;
 }

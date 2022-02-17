@@ -20,7 +20,7 @@ const Hero = () => {
               </SmallHeading>
             </div>
 
-            <Heading className="text-primary text-center md:text-left leading-10 md:leading-[65px] bg-no-repeat bg-left-bottom mt-1 mb-16">
+            <Heading className="text-primary text-center md:text-left leading-10 md:leading-[1.5] bg-no-repeat bg-left-bottom mt-1">
               Get accessible
               <br />
               <span className="bg-heading bg-no-repeat bg-bottom">
@@ -28,7 +28,7 @@ const Hero = () => {
               </span>{' '}
               in Africa
             </Heading>
-            <SmallText className="mt-5 text-center md:text-left leading-7 mb-12">
+            <SmallText className="mt-12 text-center md:text-left leading-7 mb-12">
               MobileForms is a Data collection and analytics platform that
               empowers decision-makers with real-time actionable intelligence
               gotten directly from individuals living in African communities
@@ -42,13 +42,13 @@ const Hero = () => {
           </div>
 
           <div
-            className="relative pt-[56.25%] md:pt-0"
+            className="relative pt-[56.25%] md:pt-0 "
             data-aos="zoom-in-left"
             data-aos-easing="ease-in-sine"
           >
             <ReactPlayer
               url="https://youtu.be/2rzzFbWiJtU"
-              className="left-0 top-0 absolute"
+              className="left-0 top-0 absolute rounded-[50px]"
               width="100%"
               height="100%"
             />

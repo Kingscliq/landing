@@ -17,14 +17,14 @@ const NavBar = () => {
   return (
     <section>
       <div className="container">
-        <nav className="block justify-start lg:flex lg:items-center items-center lg:justify-between flex-wrap md:px-16 px-0 py-6">
+        <nav className="block justify-start lg:flex lg:items-center items-center lg:justify-between flex-wrap px-0 py-6">
           <div className="flex items-center flex-shrink-0 mr-6">
             <span>
               <Image src={crowdforceLogo} />
             </span>
           </div>
           <div
-            className={`lg:flex justify-start left-0 right-0 translate-x-[-50rem]   items-start px-[2.5rem] py-4 md:py-0 md:px-0 bg-primary text-white md:text-primary md:bg-transparent w-full z-20 md:w-auto lg:justify-around lg:items-center flex-wrap absolute md:static md:translate-x-0 transition ease transform duration-300 ${
+            className={`lg:flex justify-start left-0 right-0 translate-x-[-50rem] items-start px-[2.5rem] py-4 md:py-0 md:px-0 bg-primary text-white md:text-primary md:bg-transparent w-full z-20 md:w-auto lg:justify-around lg:items-center flex-wrap absolute md:static md:translate-x-0 transition ease transform duration-300 ${
               isOpen ? 'translate-x-0' : 'translate-x-[-50rem]'
             }`}
           >

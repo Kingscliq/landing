@@ -49,10 +49,6 @@ module.exports = {
         section: "url('/assets/images/bg-net.svg')",
       }),
     },
-    container: {
-      center: true,
-      padding: '2rem',
-    },
   },
 
   plugins: [],

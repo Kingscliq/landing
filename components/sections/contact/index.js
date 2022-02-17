@@ -30,7 +30,7 @@ const Contact = () => {
                 <ContactInfo info="+234 902 092 4600" />
               </div>
               <div className="mb-[42px]">
-                <ContactInfo info="hello@crowdforce.io" icon={mail} />
+                <ContactInfo info="mobileforms@crowdforce.io" icon={mail} />
               </div>
               <div className="mb-[42px]">
                 <ContactInfo
