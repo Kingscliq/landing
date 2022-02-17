@@ -37,14 +37,14 @@ const NavBar = () => {
               isOpen={isOpen}
               dropDownContent={true}
             >
-              <ul className="dropdown-menu absolute hidden bg-dropDown w-48">
+              <ul className="dropdown-menu absolute hidden bg-white md:bg-dropDown w-48 z-10">
                 <Link href="/">
-                  <li className="text-xs p-4 hover:bg-primary hover:text-white transition ease duration-500">
+                  <li className="text-xs text-secondary p-4 hover:text-white hover:bg-primary md:hover:text-white transition ease duration-500">
                     <a target="_blank">Mobile Forms</a>
                   </li>
                 </Link>
                 <Link href="https://crowdforce.io/payforce">
-                  <li className="text-xs p-4 hover:bg-primary hover:text-white transition ease duration-500">
+                  <li className="text-xs text-secondary p-4 hover:text-white hover:bg-primary md:hover:text-white transition ease duration-500">
                     <a target="_blank">Payforce</a>
                   </li>
                 </Link>
@@ -58,37 +58,37 @@ const NavBar = () => {
               isOpen={isOpen}
               dropDownContent={true}
             >
-              <ul className="dropdown-menu absolute hidden bg-dropDown w-48 ml-7">
+              <ul className="dropdown-menu absolute hidden bg-white md:bg-dropDown w-48 ml-0 md:ml-7 z-10">
                 <Link href="https://crowdforce.io/market-research">
-                  <li className="text-xs p-4 hover:bg-primary hover:text-white transition ease duration-500">
+                  <li className="text-xs text-secondary p-4 hover:text-white hover:bg-primary md:hover:text-white transition ease duration-500">
                     <a target="_blank">Market Research</a>
                   </li>
                 </Link>
                 <Link href="https://crowdforce.io/fintech">
-                  <li className="text-xs p-4 hover:bg-primary hover:text-white transition ease duration-500">
+                  <li className="text-xs text-secondary p-4 hover:text-white hover:bg-primary md:hover:text-white transition ease duration-500">
                     <a target="_blank">Bank and Fintech</a>
                   </li>
                 </Link>
                 <Link href="https://crowdforce.io/government-nonprofit">
-                  <li className="text-xs p-4 hover:bg-primary hover:text-white transition ease duration-500">
+                  <li className="text-xs text-secondary p-4 hover:text-white hover:bg-primary md:hover:text-white transition ease duration-500">
                     <a target="_blank">Government</a>
                   </li>
                 </Link>
                 <Link href="https://crowdforce.io/government-nonprofit">
-                  <li className="text-xs p-4 hover:bg-primary hover:text-white transition ease duration-500">
+                  <li className="text-xs text-secondary p-4 hover:text-white hover:bg-primary md:hover:text-white transition ease duration-500">
                     <a target="_blank">Non-Profit</a>
                   </li>
                 </Link>
               </ul>
             </NavLink>
             <NavLink
-              href={'/about'}
+              href="https://crowdforce.io/about"
               linkText="About"
               className="ml-0 lg:ml-7 text-white md:text-primary lg:mt-0 w-100 py-4 lg:py-0"
               isOpen={isOpen}
             />
             <NavLink
-              href="/agents"
+              href="https://crowdforce.io/field-agent"
               linkText="Become a Field Agent"
               className="ml-0 lg:ml-7 text-white md:text-primary lg:mt-0 w-100 py-4 lg:py-0"
               isOpen={isOpen}
@@ -106,36 +106,6 @@ const NavBar = () => {
           <div>
             <Button label="Sign Up" className="mt-1 lg:mt-0 w-full lg:w-auto" />
           </div>
-        </div>
-        <div className="dropdown inline-block relative">
-          <button className="bg-gray-300 text-gray-700 font-semibold py-2 px-4 rounded inline-flex items-center">
-            <span className="mr-1">Dropdown</span>
-            <svg
-              className="fill-current h-4 w-4"
-              xmlns="http://www.w3.org/2000/svg"
-              viewBox="0 0 20 20"
-            >
-              <path d="M9.293 12.95l.707.707L15.657 8l-1.414-1.414L10 10.828 5.757 6.586 4.343 8z" />
-            </svg>
-          </button>
-          <ul className="dropdown-menu absolute hidden text-gray-700 mt-8">
-            <li className="">
-              <a
-                className="rounded-t bg-gray-200 hover:bg-gray-400 py-2 px-4 block whitespace-no-wrap"
-                href="#"
-              >
-                One
-              </a>
-            </li>
-            <li className="">
-              <a
-                className="bg-gray-200 hover:bg-gray-400 py-2 px-4 block whitespace-no-wrap"
-                href="#"
-              >
-                Two
-              </a>
-            </li>
-          </ul>
         </div>
       </div>
       <button
