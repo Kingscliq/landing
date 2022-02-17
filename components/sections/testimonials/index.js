@@ -31,6 +31,7 @@ const Testimonials = () => {
             logo={vpseal}
             logoHeight={50}
             logoWidth={50}
+            description="The company has created a platform that enables businesses and governments to crowdsource data from across the African Continent."
           />
           <TestimonialCard
             img={Laye_HSDF}
@@ -39,6 +40,7 @@ const Testimonials = () => {
             logo={hsdf}
             logoHeight="35"
             logoWidth="200"
+            description="Crowdforce is a trusted and very reliably partner. They have deployed innovative approaches with high quality assurance standards to conducting"
           />
           <TestimonialCard
             img={kola}
@@ -47,12 +49,14 @@ const Testimonials = () => {
             logo={ePlatform}
             logoHeight={50}
             logoWidth={100}
+            description="We gain access to real time market data and a reliable mobile data platform that fits seamlessly into our existing solutions."
           />
           <TestimonialCard
             img={Merijn}
             title="Chief Executive Officer"
             name="Merijn Campsteyn"
             logo={accounteer}
+            description="Being a European company, Mobile Forms was the only service provider that could connect us with an offline audience in Africa."
           />
         </div>
       </div>

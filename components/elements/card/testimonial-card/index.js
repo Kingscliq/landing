@@ -34,12 +34,12 @@ const TestimonialCard = ({
         <div className="col-span-1 row-span-2">
           <Image height={50} width={50} src={img || testim} />
         </div>
-        <div className="col-span-2 row-span-1 ml-[-3rem]">
+        <div className="col-span-2 row-span-1 ml-[-1rem] md:ml-[-3rem]">
           <h4 className="text-base sm:text-base text-primary font-bold">
             {name || ' Francis Ohanyido'}
           </h4>
         </div>
-        <div className="col-span-2 row-span-1  ml-[-3rem]">
+        <div className="col-span-2 row-span-1 ml-[-1rem]  md:ml-[-3rem]">
           <SmallText className="text-darkgray text-xs">
             {title || 'Senior Fellow'}
           </SmallText>
