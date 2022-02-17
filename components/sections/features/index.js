@@ -18,12 +18,39 @@ const Features = () => {
           Features
         </Heading>
         <div className="grid md:grid-cols-3 gap-20 mt-20">
-          <FeatureCard title="Analyze Real-time Data" icon={analytics} />
-          <FeatureCard title="Smart Launch" icon={speaker} />
-          <FeatureCard title="Create Surveys" icon={survey} />
-          <FeatureCard title="Consumer Insights" icon={insight} />
-          <FeatureCard title="Retail Audits" icon={pen} />
-          <FeatureCard title="Data Collection" icon={data} />
+          <FeatureCard
+            title="Analyze Real-time Data"
+            icon={analytics}
+            description="Our analytics dashboard and access to our network of field agents provide access to real-time data required
+"
+          />
+          <FeatureCard
+            title="Smart Launch"
+            icon={speaker}
+            description="Create survey forms to get answers and actionable insights"
+          />
+          <FeatureCard
+            title="Create Surveys"
+            icon={survey}
+            description="Launch a new product or service by smart targeting how a community or individuals perceives it."
+          />
+          <FeatureCard
+            title="Consumer Insights"
+            icon={insight}
+            description="Get consumer insights and perspectives of how they feel about your products and services
+"
+          />
+          <FeatureCard
+            title="Retail Audits"
+            icon={pen}
+            description="Measure and monitor retail success by analyzing your customer’s experience with your products in-store and verifying your retailer's outlet
+            "
+          />
+          <FeatureCard
+            title="Data Collection"
+            icon={data}
+            description="Collate responses either through our offline (via our field agent network) and online channel of your choice"
+          />
         </div>
       </div>
     </section>

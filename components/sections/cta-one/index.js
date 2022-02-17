@@ -8,9 +8,9 @@ const CtaOne = () => {
         Africa’s largest reliable data sourcing network
       </Subheading>
       <SmallText className="text-center ">
-        It is difficult to get reliable and verifiable data out of Africa so we
-        built the mobile technology and a network of 100,000 field agents to
-        solve this problem.
+        Due to the difficulty in getting reliable data out of Africa, we built a
+        mobile technology and a network of over 50,000 field agents to solve
+        this problem.
       </SmallText>
     </section>
   );

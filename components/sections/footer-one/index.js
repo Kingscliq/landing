@@ -5,7 +5,7 @@ import { SmallText } from '../../elements/text';
 
 const FooterOne = () => {
   return (
-    <section className="container grid md:grid-cols-4 pt-28">
+    <section className="container grid md:grid-cols-4 pt-28" data-aos="fade-up">
       <FooterMenu className="mb-5 md:mb-0">
         <Link href="/" passHref>
           <SmallText className="text-sm mb-3 text-primary">Company</SmallText>

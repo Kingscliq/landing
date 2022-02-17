@@ -11,7 +11,8 @@ const MobileCta = () => {
           Start accessing reliable data in Africa
         </Subheading>
         <SmallText className="text-center md:text-left">
-          Speak with a CrowdForce expert today.
+          Because reliable data is the foundation for every good decision and
+          exceptional result, we stay committed to what we do
         </SmallText>
         <Button
           label="Request a Demo"

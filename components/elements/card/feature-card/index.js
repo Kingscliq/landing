@@ -5,7 +5,7 @@ import { SmallText, Subheading } from '../../text';
 
 const FeatureCard = ({ icon, description, title }) => {
   return (
-    <section>
+    <section data-aos="zoom-in-left">
       <div>
         <Image src={icon || analytics} />
       </div>

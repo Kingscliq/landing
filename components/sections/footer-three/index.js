@@ -4,7 +4,7 @@ import { SmallText } from '../../elements/text';
 
 const FooterThree = () => {
   return (
-    <section className="container mt-20">
+    <section className="container mt-20" data-aos="fade-up">
       <FooterMenu title="Locations">
         <div className="flex flex-col md:flex-row justify-start items-start md:items-center">
           <div className="mr-20 mb-6  md:mb-0">

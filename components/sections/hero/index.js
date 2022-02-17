@@ -14,23 +14,33 @@ const Hero = () => {
       <div className="container">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-14">
           <div>
-            <SmallHeading className="text-center md:text-left mb-3">
-              Mobile Forms
-            </SmallHeading>
+            <div data-aos="fade-down">
+              <SmallHeading className="text-center md:text-left mb-3">
+                Mobile Forms
+              </SmallHeading>
+            </div>
+
             <Heading className="text-primary text-center md:text-left leading-10 md:leading-[65px] bg-heading bg-no-repeat bg-left-bottom">
               Get accessible real-time data in Africa
             </Heading>
             <SmallText className="mt-5 text-center md:text-left leading-7">
-              Data and analytics platform that empowers decision makers with
-              real-time, actionable intelligence gotten directly from real
-              individuals living in the communities.
+              MobileForms is a Data collection and analytics platform that
+              empowers decision-makers with real-time actionable intelligence
+              gotten directly from individuals living in African communities
             </SmallText>
-            <div className="flex items-center md:items-start md:justify-start justify-center mb-4 md:mb-0">
+            <div
+              className="flex items-center md:items-start md:justify-start justify-center mb-4 md:mb-0"
+              data-aos="fade-up"
+            >
               <Button className="mt-5 mb-12 md:mb-0" label="Get In Touch" />
             </div>
           </div>
 
-          <div className="relative pt-[56.25%] md:pt-0">
+          <div
+            className="relative pt-[56.25%] md:pt-0"
+            data-aos="zoom-in-left"
+            data-aos-easing="ease-in-sine"
+          >
             <ReactPlayer
               url="https://youtu.be/TgYAY5aYh7I"
               className="left-0 top-0 absolute"

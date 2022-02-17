@@ -13,10 +13,10 @@ const Contact = () => {
   return (
     <section className="bg-white px-0 md:px-16">
       <div className="grid grid-cols-1 h-auto md:grid-cols-3 md:h-[40.125rem] container md:gap-10 items-center ">
-        <div className="col-span-1 bg-contact bg-cover h-[40.125rem] mb-16 md:mb-auto px-10 flex items-start flex-col justify-between">
-          {/* <div
-          className={`col-span-1 bg-["url('${contactArea.src})"] bg-cover h-[40.125rem] mb-16 md:mb-auto px-10 flex items-start flex-col justify-between"`}
-        > */}
+        <div
+          className="col-span-1 bg-contact bg-cover h-[40.125rem] mb-16 md:mb-auto px-10 flex items-start flex-col justify-between"
+          data-aos="flip-right"
+        >
           <div>
             <Subheading className="text-white mt-20 mb-5">
               Contact us today
@@ -27,7 +27,7 @@ const Contact = () => {
             </SmallText>
             <div>
               <div className="mb-[42px]">
-                <ContactInfo />
+                <ContactInfo info="+234 902 092 4600" />
               </div>
               <div className="mb-[42px]">
                 <ContactInfo info="hello@crowdforce.io" icon={mail} />

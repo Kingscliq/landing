@@ -20,6 +20,7 @@ module.exports = {
         skyblue: 'rgba(233, 245, 249, 1)',
         tertiary: 'rgba(246, 152, 37, 1)',
         gray: '#E4E4E4',
+        darkgray: '#585858',
       },
       fontSize: {
         xs: '.75rem',
