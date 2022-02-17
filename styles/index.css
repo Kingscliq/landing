@@ -62,3 +62,19 @@ html {
   background-color: rgba(233, 245, 249, 1);
   overflow-x: hidden;
 }
+
+.dropdown:hover .dropdown-menu {
+  display: block;
+}
+
+/* .dropdown-menu, .header-menu .dropdown-menu, .navbar-light .dropdown-menu {
+  padding: 1rem 0;
+  font-size: 13px;
+  color: #355c7a;
+  background-color: #e0edf5;
+  border: none;
+  border-radius: 0;
+  border-top: 1px solid #e0edf5;
+  font-family: Avenir, sans-serif;
+  margin-top: 0;
+} */

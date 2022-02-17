@@ -14,10 +14,10 @@ const NavLink = ({
 }) => {
   return (
     <Link href={href}>
-      <a>
+      <a className="dropdown relative">
         <div
           className={[
-            'flex items-center content-between w-100 py-2 md:py-4 lg:py-0 lg:w-auto mt-10 lg:mt-0 cursor-pointer',
+            'flex items-center content-between w-100 py-2 md:py-4 lg:py-0 lg:w-auto mt-10 lg:mt-0 cursor-pointer dropdown relative',
             ,
             className,
           ].join(' ')}

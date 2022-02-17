@@ -21,6 +21,7 @@ module.exports = {
         tertiary: 'rgba(246, 152, 37, 1)',
         gray: '#E4E4E4',
         darkgray: '#585858',
+        dropDown: '#e0edf5',
       },
       fontSize: {
         xs: '.75rem',
