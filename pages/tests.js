@@ -1,4 +1,5 @@
 import React from 'react';
+import Button from '../components/elements/button';
 import CheckBox from '../components/elements/checkbox';
 
 const Tests = () => {
@@ -32,6 +33,8 @@ const Tests = () => {
           <TextArea />
         </div>
       </div> */}
+
+      {/* <Button label="Click Me" variant="primary" /> */}
     </div>
   );
 };

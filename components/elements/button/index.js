@@ -2,8 +2,6 @@ import React from 'react';
 import Image from 'next/image';
 import { loader } from '../../../assets/icons';
 
-import styles from './button.module.scss';
-
 const Button = ({
   type,
   label,
@@ -36,7 +34,7 @@ const Button = ({
           {<Image src={loader} height={40} width={40} alt="loading..." />}
         </div>
       ) : (
-        <div className={styles.btn__icon__container}>
+        <div>
           {btnIcon && 'btnICon'}
           <p>{label || 'Button Text'}</p>
         </div>
