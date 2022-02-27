@@ -23,7 +23,6 @@ const Testimonials = () => {
           Trust our clients.
         </Subheading>
         <div className="grid md:grid-cols-3 gap-5 mt-20">
-          <TestimonialCard img={francis} />
           <TestimonialCard
             img={vpOsibanjo}
             title="Vice President of Nigeria"
@@ -33,6 +32,8 @@ const Testimonials = () => {
             logoWidth={50}
             description="The company has created a platform that enables businesses and governments to crowdsource data from across the African Continent."
           />
+          <TestimonialCard img={francis} />
+
           <TestimonialCard
             img={Laye_HSDF}
             name="Olayiwola olatawura"

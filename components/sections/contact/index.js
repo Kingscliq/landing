@@ -268,7 +268,8 @@ const Contact = () => {
                       onChange={onChange}
                       ref={ref}
                       error={errors?.message}
-                      message={errors?.message.message}
+                      message={errors?.message?.message}
+                      name={name}
                     />
                   )}
                 />

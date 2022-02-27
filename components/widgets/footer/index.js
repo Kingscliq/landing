@@ -8,7 +8,6 @@ const Footer = () => {
   return (
     <footer className="bg-white px-0 md:px-16">
       <FooterOne />
-      <FooterTwo />
       <FooterThree />
       <CopyRights />
     </footer>

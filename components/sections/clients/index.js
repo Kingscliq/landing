@@ -26,7 +26,7 @@ const ClientsSection = () => {
         </Subheading>
         <SmallText className="text-center">
           Read more about our CrowdForce Series, keeping you up to date with our
-          Projects
+          Projects.
         </SmallText>
         <div className="grid gap-9 grid-cols-2 md:flex md:items-center md:justify-between w-full mt-11 mb-6">
           <Image src={minOfHealth} />

@@ -31,7 +31,7 @@ const Hero = () => {
             <SmallText className="mt-12 text-center md:text-left leading-7 mb-12">
               MobileForms is a Data collection and analytics platform that
               empowers decision-makers with real-time actionable intelligence
-              gotten directly from individuals living in African communities
+              gotten directly from individuals living in African communities.
             </SmallText>
             <div
               className="flex items-center md:items-start md:justify-start justify-center  md:mb-0"

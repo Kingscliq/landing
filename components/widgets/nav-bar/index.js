@@ -33,7 +33,7 @@ const NavBar = () => {
                 className={`list-none block justify-start lg:justify-between lg:flex flex-wrap items-start lg:items-center`}
               >
                 <NavLink
-                  href="/think"
+                  href="/"
                   linkText="Products"
                   isDropDownMenu={true}
                   isOpen={isOpen}
@@ -53,7 +53,7 @@ const NavBar = () => {
                   </ul>
                 </NavLink>
                 <NavLink
-                  href="/industry"
+                  href="/"
                   linkText="Industry"
                   isDropDownMenu={true}
                   className="ml-0 lg:ml-7 text-white md:text-primary lg:mt-0 w-100 py-4 lg:py-0"
