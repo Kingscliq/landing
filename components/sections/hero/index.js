@@ -8,6 +8,7 @@ import {
 } from '../../../components/elements/text';
 
 import ReactPlayer from 'react-player';
+
 const Hero = () => {
   return (
     <section className="bg-skyblue h-auto py-4 md:py-36 px-0 md:px-16">
@@ -24,7 +25,7 @@ const Hero = () => {
                 Get accessible
                 <br />
                 <span className="bg-heading bg-no-repeat bg-bottom">
-                  real-time data
+                  real-time data &nbsp;
                 </span>
                 in Africa
               </Heading>
@@ -34,9 +35,8 @@ const Hero = () => {
                 gotten directly from individuals living in African communities.
               </SmallText>
             </div>
-
             <div
-              className="flex items-center md:items-start md:justify-start justify-center  md:mb-0"
+              className="flex items-center md:items-start md:justify-start justify-center md:mb-0"
               data-aos="fade-up"
             >
               <Button className=" mb-12 md:mb-0" label="Get In Touch" />
@@ -44,7 +44,7 @@ const Hero = () => {
           </div>
 
           <div
-            className="relative pt-[56.25%] md:pt-0 "
+            className="relative pt-[56.25%] md:pt-0 rounded-md overflow-hidden"
             data-aos="zoom-in-left"
             data-aos-easing="ease-in-sine"
           >
