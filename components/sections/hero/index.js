@@ -19,20 +19,22 @@ const Hero = () => {
                 Mobile Forms
               </SmallHeading>
             </div>
+            <div data-aos="zoom-in-right">
+              <Heading className="text-primary text-center md:text-left leading-10 md:leading-[1.5] bg-no-repeat bg-left-bottom mt-1">
+                Get accessible
+                <br />
+                <span className="bg-heading bg-no-repeat bg-bottom">
+                  real-time data
+                </span>
+                in Africa
+              </Heading>
+              <SmallText className="mt-12 text-center md:text-left leading-7 mb-12">
+                MobileForms is a Data collection and analytics platform that
+                empowers decision-makers with real-time actionable intelligence
+                gotten directly from individuals living in African communities.
+              </SmallText>
+            </div>
 
-            <Heading className="text-primary text-center md:text-left leading-10 md:leading-[1.5] bg-no-repeat bg-left-bottom mt-1">
-              Get accessible
-              <br />
-              <span className="bg-heading bg-no-repeat bg-bottom">
-                real-time data
-              </span>{' '}
-              in Africa
-            </Heading>
-            <SmallText className="mt-12 text-center md:text-left leading-7 mb-12">
-              MobileForms is a Data collection and analytics platform that
-              empowers decision-makers with real-time actionable intelligence
-              gotten directly from individuals living in African communities.
-            </SmallText>
             <div
               className="flex items-center md:items-start md:justify-start justify-center  md:mb-0"
               data-aos="fade-up"
