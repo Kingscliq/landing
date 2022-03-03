@@ -1,5 +1,5 @@
 import Image from 'next/image';
-import React from 'react';
+import React, { useState } from 'react';
 import { facebook, linkedIn, mail, map, twitter } from '../../../assets/icons';
 import { contactArea } from '../../../assets/images';
 import Button from '../../elements/button';
@@ -10,10 +10,12 @@ import { SmallText, Subheading } from '../../elements/text';
 import TextArea from '../../elements/textarea';
 
 import { useForm, Controller } from 'react-hook-form';
+import axios from 'axios';
+import { toast } from 'react-toastify';
 
 const Contact = () => {
   // const {handleSubmit, error, } = useForm();
-
+  const [loading, setLoading] = useState(false);
   const {
     handleSubmit,
     control,
@@ -89,6 +91,36 @@ const Contact = () => {
             <form
               onSubmit={handleSubmit(data => {
                 console.log(data);
+                const genInfo = data.generalInfo ? 'General Info' : null;
+                const demo = data.demo ? 'Book a live Demo' : null;
+                const priceInfo = data.priceInfo ? 'Pricing Information' : null;
+
+                const phoneCheck = data.phoneSelected ? 'Phone' : null;
+                const emailCheck = data.EmailSelected ? 'Email' : null;
+                const payload = {
+                  first_name: data.firstname,
+                  last_name: data.lastname,
+                  email: data.email,
+                  message: data.message,
+                  phone_number: data.phone,
+                  preferred_method_communication: [phoneCheck, emailCheck],
+                  how_can_we_help: [genInfo, demo, priceInfo],
+                };
+
+                console.log(payload);
+
+                setLoading(true);
+                axios
+                  .post(
+                    'https://dev.cforce.live/api/user/notifycustomerserviceofprospectiveclientdetails',
+                    payload
+                  )
+                  .then(data => {
+                    console.log(data);
+                    setLoading(false);
+                    toast.success('Message Sent Successfully');
+                  })
+                  .catch(err => console.log(err));
                 console.log(errors);
               })}
             >
@@ -105,7 +137,7 @@ const Contact = () => {
                   }}
                   render={({ field: { value, onChange, name, ref } }) => (
                     <Input
-                      label="Firstname"
+                      label="First Name"
                       placeholder="Enter First Name"
                       error={errors?.firstname}
                       required
@@ -129,7 +161,7 @@ const Contact = () => {
                   }}
                   render={({ field: { value, onChange, name, ref } }) => (
                     <Input
-                      label="Lastname"
+                      label="Last Name"
                       placeholder="Enter Last Name"
                       error={errors?.lastname}
                       required
@@ -320,7 +352,12 @@ const Contact = () => {
                   )}
                 />
               </div>
-              <Button label="Submit" type="submit" className="mt-6" />
+              <Button
+                label="Submit"
+                type="submit"
+                className="mt-6"
+                loading={loading}
+              />
             </form>
           </div>
         </div>

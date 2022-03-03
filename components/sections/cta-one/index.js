@@ -4,7 +4,7 @@ import { SmallHeading, Subheading, SmallText } from '../../elements/text';
 const CtaOne = () => {
   return (
     <section className="w-full h-auto bg-primary flex justify-center items-center flex-col py-11 px-11 md:px-[28rem] text-white bg-world ">
-      <div className="md:w-[60%] w-auto">
+      <div className="md:w-[90%] w-auto">
         <Subheading className="text-center mb-12">
           <span className="bg-heading bg-no-repeat bg-bottom">Africa’s </span>
           largest reliable data sourcing network
