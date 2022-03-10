@@ -20,7 +20,7 @@ const MobileCta = () => {
         />
       </div>
       <div className="mt-14">
-        <Image src={iphone} />
+        <Image src={iphone} alt="CrowdForce | Iphone" />
       </div>
     </section>
   );

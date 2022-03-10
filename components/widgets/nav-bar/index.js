@@ -20,7 +20,7 @@ const NavBar = () => {
         <nav className="block justify-start lg:flex lg:items-center items-center lg:justify-between flex-wrap px-0 py-6">
           <div className="flex items-center flex-shrink-0 mr-6">
             <span>
-              <Image src={crowdforceLogo} />
+              <Image src={crowdforceLogo} alt="CrowdForce logo" />
             </span>
           </div>
           <div

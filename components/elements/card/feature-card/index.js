@@ -7,7 +7,7 @@ const FeatureCard = ({ icon, description, title }) => {
   return (
     <section data-aos="zoom-in-left">
       <div>
-        <Image src={icon || analytics} />
+        <Image src={icon || analytics} alt="crowdforce icons" />
       </div>
       <div className="mt-3">
         <h2 className="text-md font-bold text-primary">

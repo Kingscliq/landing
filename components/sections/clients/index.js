@@ -29,12 +29,15 @@ const ClientsSection = () => {
           Projects.
         </SmallText>
         <div className="grid gap-9 grid-cols-2 md:flex md:items-center md:justify-between w-full mt-11 mb-6">
-          <Image src={minOfHealth} />
-          <Image src={traderMoni} />
-          <Image src={nbs} />
-          <Image src={bei} />
-          <Image src={dufil} />
-          <Image src={healthStrategy} />
+          <Image src={minOfHealth} alt="CrowdForce | Ministry of Health" />
+          <Image src={traderMoni} alt="CrowdForce | Trade Moni" />
+          <Image src={nbs} alt="CrowdForce | National Bureau of Statistics" />
+          <Image src={bei} alt="CrowdForce | Beisdorf" />
+          <Image src={dufil} alt="CrowdForce | Dufil" />
+          <Image
+            src={healthStrategy}
+            alt="CrowdForce | health Strategy and delivery foundation"
+          />
         </div>
         <div className="flex items-center justify-center">
           <Link href="https://medium.com/crowdforce-series">

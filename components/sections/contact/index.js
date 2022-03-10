@@ -75,13 +75,13 @@ const Contact = () => {
           </div>
           <div className="flex items-center mb-11">
             <div>
-              <Image src={linkedIn} />
+              <Image src={linkedIn} alt="CrowdForce | LinkedIn" />
             </div>
             <div className="ml-[39px]">
-              <Image src={facebook} />
+              <Image src={facebook} alt="CrowdForce | facebook" />
             </div>
             <div className="ml-[39px]">
-              <Image src={twitter} />
+              <Image src={twitter} alt="CrowdForce | Twitter" />
             </div>
           </div>
         </div>
