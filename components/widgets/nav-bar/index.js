@@ -24,8 +24,8 @@ const NavBar = () => {
             </span>
           </div>
           <div
-            className={`lg:flex justify-start left-0 right-0 translate-x-[-50rem] items-start px-[2.5rem] py-4 md:py-0 md:px-0 bg-primary text-white md:text-primary md:bg-transparent w-full z-20 md:w-auto lg:justify-around lg:items-center flex-wrap absolute md:static md:translate-x-0 transition ease transform duration-300 ${
-              isOpen ? 'translate-x-0' : 'translate-x-[-50rem]'
+            className={`lg:flex justify-start left-0 right-0 translate-x-[-50rem] items-start px-[2.5rem] py-4 lg:py-0 lg:px-0 bg-primary text-white lg:text-primary lg:bg-transparent w-full z-20 lg:w-auto lg:justify-around lg:items-center flex-wrap absolute lg:static lg:translate-x-0 transition ease transform duration-300 ${
+              isOpen ? 'translate-x-0' : 'translate-x-[-80rem]'
             }`}
           >
             <div>
@@ -39,14 +39,14 @@ const NavBar = () => {
                   isOpen={isOpen}
                   dropDownContent={true}
                 >
-                  <ul className="dropdown-menu absolute hidden bg-white md:bg-dropDown w-48 z-10">
+                  <ul className="dropdown-menu absolute hidden bg-white lg:bg-dropDown w-48 z-10">
                     <Link href="/">
-                      <li className="text-xs text-secondary p-4 hover:text-white hover:bg-primary md:hover:text-white transition ease duration-500">
+                      <li className="text-xs text-secondary p-4 hover:text-white hover:bg-primary lg:hover:text-white transition ease duration-500">
                         <a target="_blank">Mobile Forms</a>
                       </li>
                     </Link>
                     <Link href="https://crowdforce.io/payforce">
-                      <li className="text-xs text-secondary p-4 hover:text-white hover:bg-primary md:hover:text-white transition ease duration-500">
+                      <li className="text-xs text-secondary p-4 hover:text-white hover:bg-primary lg:hover:text-white transition ease duration-500">
                         <a target="_blank">Payforce</a>
                       </li>
                     </Link>
@@ -56,28 +56,28 @@ const NavBar = () => {
                   href="/"
                   linkText="Industry"
                   isDropDownMenu={true}
-                  className="ml-0 lg:ml-7 text-white md:text-primary lg:mt-0 w-100 py-4 lg:py-0"
+                  className="ml-0 lg:ml-7 text-white lg:text-primary lg:mt-0 w-100 py-4 lg:py-0"
                   isOpen={isOpen}
                   dropDownContent={true}
                 >
-                  <ul className="dropdown-menu absolute hidden bg-white md:bg-dropDown w-48 ml-0 md:ml-7 z-10">
+                  <ul className="dropdown-menu absolute hidden bg-white lg:bg-dropDown w-48 ml-0 lg:ml-7 z-10">
                     <Link href="https://crowdforce.io/market-research">
-                      <li className="text-xs text-secondary p-4 hover:text-white hover:bg-primary md:hover:text-white transition ease duration-500">
+                      <li className="text-xs text-secondary p-4 hover:text-white hover:bg-primary lg:hover:text-white transition ease duration-500">
                         <a target="_blank">Market Research</a>
                       </li>
                     </Link>
                     <Link href="https://crowdforce.io/fintech">
-                      <li className="text-xs text-secondary p-4 hover:text-white hover:bg-primary md:hover:text-white transition ease duration-500">
+                      <li className="text-xs text-secondary p-4 hover:text-white hover:bg-primary lg:hover:text-white transition ease duration-500">
                         <a target="_blank">Bank and Fintech</a>
                       </li>
                     </Link>
                     <Link href="https://crowdforce.io/government-nonprofit">
-                      <li className="text-xs text-secondary p-4 hover:text-white hover:bg-primary md:hover:text-white transition ease duration-500">
+                      <li className="text-xs text-secondary p-4 hover:text-white hover:bg-primary lg:hover:text-white transition ease duration-500">
                         <a target="_blank">Government</a>
                       </li>
                     </Link>
                     <Link href="https://crowdforce.io/government-nonprofit">
-                      <li className="text-xs text-secondary p-4 hover:text-white hover:bg-primary md:hover:text-white transition ease duration-500">
+                      <li className="text-xs text-secondary p-4 hover:text-white hover:bg-primary lg:hover:text-white transition ease duration-500">
                         <a target="_blank">Non-Profit</a>
                       </li>
                     </Link>
@@ -86,13 +86,13 @@ const NavBar = () => {
                 <NavLink
                   href="https://crowdforce.io/about"
                   linkText="About"
-                  className="ml-0 lg:ml-7 text-white md:text-primary lg:mt-0 w-100 py-4 lg:py-0"
+                  className="ml-0 lg:ml-7 text-white lg:text-primary lg:mt-0 w-100 py-4 lg:py-0"
                   isOpen={isOpen}
                 />
                 <NavLink
                   href="https://crowdforce.io/field-agent"
                   linkText="Become a Field Agent"
-                  className="ml-0 lg:ml-7 text-white md:text-primary lg:mt-0 w-100 py-4 lg:py-0"
+                  className="ml-0 lg:ml-7 text-white lg:text-primary lg:mt-0 w-100 py-4 lg:py-0"
                   isOpen={isOpen}
                 />
               </div>
@@ -102,7 +102,7 @@ const NavBar = () => {
                 <Button
                   label="Login"
                   variant="secondary"
-                  className="text-white md:w-64 md:text-secondary md:hover:text-primary md:ml-[-20px] hover:text-white mr-2 mb-4 md:mb-0 lg:mt-0 w-full lg:w-auto md:border-0 border border-white md:border-secondary"
+                  className="text-white lg:w-64 lg:text-secondary lg:hover:text-primary lg:ml-[-20px] hover:text-white mr-2 mb-4 lg:mb-0 lg:mt-0 w-full lg:w-auto lg:border-0 border border-white lg:border-secondary"
                 />
               </div>
               <div>
@@ -115,7 +115,7 @@ const NavBar = () => {
           </div>
           <button
             aria-label="hamburger menu"
-            className="flex flex-col h-7 w-7 justify-center items-center group md:hidden absolute top-8 right-8"
+            className="flex flex-col h-7 w-7 justify-center items-center group lg:hidden absolute top-8 right-8"
             onClick={() => setIsOpen(prev => !prev)}
           >
             <div

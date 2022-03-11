@@ -39,12 +39,12 @@ const TestimonialCard = ({
             alt="Crowdforce Icons"
           />
         </div>
-        <div className="col-span-2 row-span-1 ml-[-1rem] md:ml-[-3rem]">
+        <div className="col-span-2 row-span-1 ml-[-1rem] lg:ml-[-3rem]">
           <h4 className="text-base sm:text-base text-primary font-bold">
             {name || ' Francis Ohanyido'}
           </h4>
         </div>
-        <div className="col-span-2 row-span-1 ml-[-1rem]  md:ml-[-3rem]">
+        <div className="col-span-2 row-span-1 ml-[-1rem]  lg:ml-[-3rem]">
           <SmallText className="text-darkgray text-xs">
             {title || 'Senior Fellow'}
           </SmallText>

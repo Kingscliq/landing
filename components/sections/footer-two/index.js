@@ -4,7 +4,7 @@ import { SmallText } from '../../elements/text';
 
 const FooterTwo = () => {
   return (
-    <section className="grid grid-cols-5 items-start container mt-8 gap-24 md:gap-12">
+    <section className="grid grid-cols-5 items-start container mt-8 gap-24 lg:gap-12">
       <div className="col-span-1">
         <FooterMenu title="General Enquiries">
           <SmallText className="text-sm mb-3 text-primary">

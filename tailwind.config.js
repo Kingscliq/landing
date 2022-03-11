@@ -6,12 +6,6 @@ module.exports = {
   ],
   theme: {
     extend: {
-      screens: {
-        sm: '480px',
-        md: '768px',
-        lg: '976px',
-        xl: '1440px',
-      },
       colors: {
         transparent: 'transparent',
         white: '#ffffff',
@@ -28,7 +22,7 @@ module.exports = {
         sm: '.875rem',
         tiny: '.875rem',
         base: '1rem',
-        md: '1.125rem',
+        lg: '1.125rem',
         lg: '2.25rem',
         xl: '3rem',
       },

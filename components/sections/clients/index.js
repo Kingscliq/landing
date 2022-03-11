@@ -19,7 +19,7 @@ import {
 
 const ClientsSection = () => {
   return (
-    <section className="bg-white px-0 md:px-16 py-14 ">
+    <section className="bg-white px-0 lg:px-16 py-14 ">
       <div className="container h-auto flex flex-col items-center justify-center">
         <Subheading className="text-primary mb-3.5 mt-24 text-center w-auto">
           Clients
@@ -28,7 +28,7 @@ const ClientsSection = () => {
           Read more about our CrowdForce Series, keeping you up to date with our
           Projects.
         </SmallText>
-        <div className="grid gap-9 grid-cols-2 md:flex md:items-center md:justify-between w-full mt-11 mb-6">
+        <div className="grid gap-9 grid-cols-2 lg:flex lg:items-center lg:justify-between w-full mt-11 mb-6">
           <Image src={minOfHealth} alt="CrowdForce | Ministry of Health" />
           <Image src={traderMoni} alt="CrowdForce | Trade Moni" />
           <Image src={nbs} alt="CrowdForce | National Bureau of Statistics" />

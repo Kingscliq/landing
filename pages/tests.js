@@ -12,7 +12,7 @@ const Tests = () => {
 
         <Counter />
         <Button loading />
-        <div className="grid md:grid-cols-3 gap-20 mt-20">
+        <div className="grid lg:grid-cols-3 gap-20 mt-20">
           <FeatureCard />
           <FeatureCard />
           <FeatureCard />
@@ -20,7 +20,7 @@ const Tests = () => {
           <FeatureCard />
           <FeatureCard />
         </div>
-        <div className="grid md:grid-cols-3 gap-20 mt-20">
+        <div className="grid lg:grid-cols-3 gap-20 mt-20">
           <TestimonialCard />
           <TestimonialCard />
           <TestimonialCard />

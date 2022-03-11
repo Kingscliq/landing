@@ -12,12 +12,12 @@ import { Heading } from '../../elements/text';
 
 const Features = () => {
   return (
-    <section className="mb-11 px-0 md:px-16">
+    <section className="mb-11 px-0 lg:px-16">
       <div className="container ">
         <Heading className="text-center bg-heading text-primary bg-no-repeat bg-bottom mt-24">
           Features
         </Heading>
-        <div className="grid md:grid-cols-3 gap-20 mt-20">
+        <div className="grid lg:grid-cols-3 gap-20 mt-20">
           <FeatureCard
             title="Analyze Real-time Data"
             icon={analytics}

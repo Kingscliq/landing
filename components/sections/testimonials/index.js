@@ -15,14 +15,14 @@ import { Subheading } from '../../elements/text';
 
 const Testimonials = () => {
   return (
-    <section className="bg-white px-0 md:px-16">
+    <section className="bg-white px-0 lg:px-16">
       <div className="container py-28">
         <Subheading className="bg-heading bg-no-repeat bg-bottom text-primary text-center">
           Don’t take our word for it.
           <br />
           Trust our clients.
         </Subheading>
-        <div className="grid md:grid-cols-3 gap-5 mt-20">
+        <div className="grid lg:grid-cols-3 gap-5 mt-20">
           <TestimonialCard
             img={vpOsibanjo}
             title="Vice President of Nigeria"

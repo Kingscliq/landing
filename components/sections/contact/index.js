@@ -44,10 +44,10 @@ const Contact = () => {
   // const onSubmit = data => console.log(data);
 
   return (
-    <section className="bg-white px-0 md:px-16">
-      <div className="grid grid-cols-1 h-auto md:grid-cols-3 md:h-[40.125rem] container md:gap-10 items-center ">
+    <section className="bg-white px-0 lg:px-16">
+      <div className="grid grid-cols-1 h-auto lg:grid-cols-3 lg:h-[40.125rem] container lg:gap-10 items-center ">
         <div
-          className="col-span-1 bg-contact bg-cover h-[40.125rem] mb-16 md:mb-auto px-10 flex items-start flex-col justify-between"
+          className="col-span-1 bg-contact bg-cover h-[40.125rem] mb-16 lg:mb-auto px-10 flex items-start flex-col justify-between"
           data-aos="flip-right"
         >
           <div>
@@ -124,7 +124,7 @@ const Contact = () => {
                 console.log(errors);
               })}
             >
-              <div className="grid grid-cols-1 md:grid-cols-2 md:gap-16 gap-4">
+              <div className="grid grid-cols-1 lg:grid-cols-2 lg:gap-16 gap-4">
                 <Controller
                   name="firstname"
                   defaultValue={''}
@@ -219,10 +219,10 @@ const Contact = () => {
                   )}
                 />
               </div>
-              <SmallText className="text-primary font-bold mt-0 md:mt-6 mb-5">
+              <SmallText className="text-primary font-bold mt-0 lg:mt-6 mb-5">
                 How can we help?
               </SmallText>
-              <div className="grid grid-cols-1 md:grid-cols-3 mt-0 md:mt-6">
+              <div className="grid grid-cols-1 lg:grid-cols-3 mt-0 lg:mt-6">
                 <Controller
                   name="generalInfo"
                   defaultValue={false}
@@ -233,7 +233,7 @@ const Contact = () => {
                   render={({ field: { value, onChange, name, ref } }) => (
                     <CheckBox
                       label="General Information"
-                      className="mb-4 md:mb-auto"
+                      className="mb-4 lg:mb-auto"
                       id="genInfo"
                       htmlFor="genInfo"
                       value={value}
@@ -252,7 +252,7 @@ const Contact = () => {
                   render={({ field: { value, onChange, name, ref } }) => (
                     <CheckBox
                       label="Pricing Information "
-                      className="mb-4 md:mb-auto"
+                      className="mb-4 lg:mb-auto"
                       id="priceInfo"
                       htmlFor="priceInfo"
                       value={value}
@@ -307,10 +307,10 @@ const Contact = () => {
                 />
               </div>
 
-              <SmallText className="text-primary font-bold mt-0 md:mt-6 mb-5">
+              <SmallText className="text-primary font-bold mt-0 lg:mt-6 mb-5">
                 Prefered method of communication
               </SmallText>
-              <div className="grid grid-cols-3 md:grid-cols-6 mt-0 md:mt-6">
+              <div className="grid grid-cols-3 lg:grid-cols-6 mt-0 lg:mt-6">
                 <Controller
                   name="phoneSelected"
                   defaultValue={''}
@@ -321,7 +321,7 @@ const Contact = () => {
                   render={({ field: { value, onChange, name, ref } }) => (
                     <CheckBox
                       label="Phone"
-                      className="mb-4 md:mb-auto"
+                      className="mb-4 lg:mb-auto"
                       id="phone-check"
                       htmlFor="phone-check"
                       value={value}
@@ -341,7 +341,7 @@ const Contact = () => {
                   render={({ field: { value, onChange, name, ref } }) => (
                     <CheckBox
                       label="Email"
-                      className="mb-4 md:mb-auto"
+                      className="mb-4 lg:mb-auto"
                       id="email-check"
                       htmlFor="email-check"
                       value={value}

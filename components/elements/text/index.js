@@ -23,7 +23,7 @@ export const SmallText = ({ children, className, props, style }) => {
 export const Heading = ({ children, className, props, style }) => {
   return (
     <h2
-      className={['text-lg md:text-xl font-sans font-bold', className].join(
+      className={['text-lg lg:text-xl font-sans font-bold', className].join(
         ' '
       )}
       {...props}
