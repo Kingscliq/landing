@@ -8,6 +8,7 @@ import {
 } from '../../../components/elements/text';
 
 import ReactPlayer from 'react-player';
+import Link from 'next/link';
 
 const Hero = () => {
   return (
@@ -39,7 +40,9 @@ const Hero = () => {
               className="flex items-center lg:items-start lg:justify-start justify-center lg:mb-0"
               data-aos="fade-up"
             >
-              <Button className=" mb-12 lg:mb-0" label="Get In Touch" />
+              <Link href="#contact">
+                <Button className=" mb-12 lg:mb-0" label="Get In Touch" />
+              </Link>
             </div>
           </div>
 

@@ -44,7 +44,7 @@ const Contact = () => {
   // const onSubmit = data => console.log(data);
 
   return (
-    <section className="bg-white px-0 lg:px-16">
+    <section className="bg-white px-0 lg:px-16" id="contact">
       <div className="grid grid-cols-1 h-auto lg:grid-cols-3 lg:h-[40.125rem] container lg:gap-10 items-center ">
         <div
           className="col-span-1 bg-contact bg-cover h-[40.125rem] mb-16 lg:mb-auto px-10 flex items-start flex-col justify-between"
