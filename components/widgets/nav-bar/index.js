@@ -18,10 +18,12 @@ const NavBar = () => {
     <section>
       <div className="container">
         <nav className="block justify-start lg:flex lg:items-center items-center lg:justify-between flex-wrap px-0 py-6">
-          <div className="flex items-center flex-shrink-0 mr-6">
-            <span>
-              <Image src={crowdforceLogo} alt="CrowdForce logo" />
-            </span>
+          <div className="flex items-center flex-shrink-0 mr-6 cursor-pointer">
+            <Link href="https://crowdforce.io">
+              <span>
+                <Image src={crowdforceLogo} alt="CrowdForce logo" />
+              </span>
+            </Link>
           </div>
           <div
             className={`lg:flex justify-start left-0 right-0 translate-x-[-50rem] items-start px-[2.5rem] py-4 lg:py-0 lg:px-0 bg-primary text-white lg:text-primary lg:bg-transparent w-full z-20 lg:w-auto lg:justify-around lg:items-center flex-wrap absolute lg:static lg:translate-x-0 transition ease transform duration-300 ${

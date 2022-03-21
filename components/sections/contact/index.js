@@ -14,7 +14,6 @@ import axios from 'axios';
 import { toast } from 'react-toastify';
 
 const Contact = () => {
-  // const {handleSubmit, error, } = useForm();
   const [loading, setLoading] = useState(false);
   const {
     handleSubmit,
@@ -22,26 +21,7 @@ const Contact = () => {
     formState: { errors },
   } = useForm({
     mode: 'onSubmit',
-    // reValidateMode: 'onChange'
   });
-
-  // <Controller
-  // name={`TermsAndConditions`}
-  // control={control}
-  // rules={{
-  //   required: {
-  //     value: true,
-  //     message: 'Please accept the terms and conditions'
-  //   }
-  // }}
-  // render={({ field: { value, onChange, name } }) => (
-  //   <input
-  //     type='checkbox'
-  //     name={name}
-  //     value={value}
-  //     onChange={(e) => onChange(e.target.checked)}/>
-
-  // const onSubmit = data => console.log(data);
 
   return (
     <section className="bg-white px-0 lg:px-16" id="contact">
