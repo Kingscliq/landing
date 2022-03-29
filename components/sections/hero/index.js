@@ -52,7 +52,7 @@ const Hero = () => {
             data-aos-easing="ease-in-sine"
           >
             <ReactPlayer
-              url="https://youtu.be/2rzzFbWiJtU"
+              url="https://youtu.be/hjXbb_gMDtc"
               className="left-0 top-0 absolute rounded-[50px]"
               width="100%"
               height="100%"
