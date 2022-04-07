@@ -3,6 +3,7 @@ import React from 'react';
 import { arrowDown } from '../../../assets/icons';
 import { SmallHeading } from '../text';
 import Link from 'next/link';
+
 const NavLink = ({
   href,
   isDropDownMenu,

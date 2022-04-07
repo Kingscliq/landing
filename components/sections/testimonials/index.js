@@ -52,13 +52,13 @@ const Testimonials = () => {
             logoWidth={100}
             description="We gain access to real time market data and a reliable mobile data platform that fits seamlessly into our existing solutions."
           />
-          <TestimonialCard
+          {/* <TestimonialCard
             img={Merijn}
             title="Chief Executive Officer"
             name="Merijn Campsteyn"
             logo={accounteer}
             description="Being a European company, Mobile Forms was the only service provider that could connect us with an offline audience in Africa."
-          />
+          /> */}
         </div>
       </div>
     </section>

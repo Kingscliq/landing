@@ -1,5 +1,5 @@
 import React from 'react';
-import { SmallHeading, Subheading, SmallText } from '../../elements/text';
+import { Subheading, SmallText } from '../../elements/text';
 
 const CtaOne = () => {
   return (
